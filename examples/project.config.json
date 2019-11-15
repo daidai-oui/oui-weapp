@@ -5,7 +5,7 @@
 	},
 	"setting": {
 		"urlCheck": false,
-		"es6": false,
+		"es6": true,
 		"enhance": false,
 		"postcss": false,
 		"minified": false,
@@ -24,8 +24,8 @@
 		}
 	},
 	"compileType": "miniprogram",
-	"libVersion": "2.7.2",
-	"appid": "wx3bd1e8a82eab7ce5",
+	"libVersion": "2.9.3",
+	"appid": "wx5d9d1244426fa768",
 	"projectname": "oui-weapp",
 	"simulatorType": "wechat",
 	"simulatorPluginLibVersion": {},

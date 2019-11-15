@@ -15,7 +15,7 @@
 ## 体验
 使用微信扫一扫体验小程序组件示例
 
-<img width="200" src="./assets/logo.png">
+<img width="200" src="./assets/oui.jpg">
 
 ## 快速上手
 
