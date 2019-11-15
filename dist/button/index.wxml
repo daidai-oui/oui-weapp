@@ -1,5 +1,5 @@
 <button
-    class="o-class i-btn {{ long ? 'o-btn-long' : '' }} {{ 'o-btn-' + size }} {{ 'o-btn-' + type }} {{ 'o-btn-' + shape }} {{ loading ? 'o-btn-loading' : '' }} {{ disabled ? 'o-btn-disabled' : ''}} {{ inline ? 'o-btn-inline' : '' }}"
+    class="o-class o-btn {{ long ? 'o-btn-long' : '' }} {{ 'o-btn-' + size }} {{ 'o-btn-' + type }} {{ 'o-btn-' + shape }} {{ loading ? 'o-btn-loading' : '' }} {{ disabled ? 'o-btn-disabled' : ''}} {{ inline ? 'o-btn-inline' : '' }}"
     hover-class="o-btn-hover"
     bindtap="handleTap"
     open-type="{{ openType }}"
@@ -17,4 +17,4 @@
     bindgetphonenumber="bindgetphonenumber"
     binderror="binderror"
     plain="true"
-><view class="i-btn-loading-inner" wx:if="{{loading}}"></view><slot></slot></button>
+><view class="o-btn-loading-inner" wx:if="{{loading}}"></view><slot></slot></button>

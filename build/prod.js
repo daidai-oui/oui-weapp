@@ -8,7 +8,7 @@ const src = path.resolve(__dirname, '../src');
 const outDir = path.resolve(__dirname, '../dist/');
 
 gulp.task('compile-css', () => {
-    return gulp.src([`${src}/**/*.less`, `!${src}/**/_*.less`])
+    return gulp.src([`${src}/**/*.less`])
         .pipe(less())
         .pipe(cssmin())
         .pipe(rename((path) => {
