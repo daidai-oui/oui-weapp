@@ -1,0 +1,2 @@
+
+<o-button type="primary" bind:click="handleClick">Button按钮</o-button>

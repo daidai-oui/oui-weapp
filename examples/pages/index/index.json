@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "Oui Weapp",
+  "usingComponents": {
+    "o-button": "../../dist/button/index"
+  }
+}

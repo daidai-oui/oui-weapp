@@ -1,0 +1,27 @@
+
+<o-button bind:click="handleClick" inline>行内按钮</o-button>
+<o-button bind:click="handleClick" inline type="primary">行内按钮</o-button>
+<o-button bind:click="handleClick" inline type="success">行内按钮</o-button>
+
+<o-button bind:click="handleClick">默认按钮</o-button>
+<o-button bind:click="handleClick" type="error" long="true">联通两边按钮</o-button>
+<o-button bind:click="handleClick" type="primary">Primary</o-button>
+<o-button bind:click="handleClick" type="ghost">Ghost</o-button>
+<o-button bind:click="handleClick" type="info">Info</o-button>
+<o-button bind:click="handleClick" type="success">Success</o-button>
+<o-button bind:click="handleClick" type="warning">Warning</o-button>
+<o-button bind:click="handleClick" type="error">Error</o-button>
+
+
+<o-button bind:click="handleClick" type="primary" size="large">大尺寸</o-button>
+<o-button bind:click="handleClick" type="primary" size="default">默认尺寸</o-button>
+<o-button bind:click="handleClick" type="primary" size="small">小尺寸</o-button>
+
+
+<o-button bind:click="handleClick" type="success" shape="circle" size="large">大尺寸</o-button>
+<o-button bind:click="handleClick" type="success" shape="circle">默认尺寸</o-button>
+<o-button bind:click="handleClick" type="success" shape="circle" size="small">小尺寸</o-button>
+
+<o-button bind:click="handleClick" type="primary" loading="true">加载中按钮</o-button>
+
+<o-button bind:click="handleClick" type="primary" disabled>禁用按钮</o-button>

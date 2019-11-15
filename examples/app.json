@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/button/index"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#FAFAFA",
+    "navigationBarTitleText": "Oui WeApp",
+    "navigationBarTextStyle": "black",
+    "backgroundTextStyle": "dark",
+    "backgroundColor": "#f9f9f9"
+  },
+  "debug": true,
+  "sitemapLocation": "sitemap.json"
+}

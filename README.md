@@ -18,11 +18,28 @@
 <img width="200" src="./assets/logo.png">
 
 ## 快速上手
-### 使用之前
-在开始使用 Oui Weapp 之前，你需要先阅读 [微信小程序自定义组件](https://developers.weixin.qq.com/miniprogram/dev/framework/custom-component/) 的相关文档。
 
-### 如何使用
-到 [GitHub](https://daidai-oui.github.io/oui-weapp) 下载 Oui Weapp 的代码，将 `dist` 目录拷贝到自己的项目中。然后按照如下的方式使用组件，以 Button 为例，其它组件在对应的文档页查看：
+### 方式一. 通过 npm 安装 (推荐)
+
+小程序已经支持使用 npm 安装第三方包，详见 [npm 支持](https://developers.weixin.qq.com/miniprogram/dev/devtools/npm.html?search-key=npm)
+
+```bash
+# npm
+npm i oui-weapp -S --production
+
+# yarn
+yarn add oui-weapp --production
+```
+
+### 方式二. 下载代码
+
+直接通过 git 下载 Oui Weapp 源代码，并将`dist`目录拷贝到自己的项目中
+```bash
+git clone https://github.com/daidai-oui/oui-weapp.git
+```
+
+### 如何使用 [微信小程序自定义组件](https://developers.weixin.qq.com/miniprogram/dev/framework/custom-component/)
+按照如下的方式使用组件，以 Button 为例，其它组件在对应的文档页查看：
 
 1. 添加需要的组件。在页面的 json 中配置（路径根据自己项目位置配置）：
 ```json
