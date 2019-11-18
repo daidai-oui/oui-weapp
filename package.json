@@ -1,6 +1,6 @@
 {
   "name": "oui-weapp",
-  "version": "1.0.0",
+  "version": "0.0.3",
   "description": "高质量、轻量、可靠的微信小程序 UI 组件库",
   "main": "index.js",
   "directories": {
@@ -11,12 +11,16 @@
     "build": "gulp --gulpfile build/prod.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "files": [
+    "dist",
+    "lib"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/daidai-oui/oui-weapp.git"
   },
   "author": "daidai",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/daidai-oui/oui-weapp/issues"
   },

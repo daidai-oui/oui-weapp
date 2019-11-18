@@ -4,7 +4,7 @@ const cssmin = require('gulp-clean-css');
 const rename = require('gulp-rename');
 const path = require('path');
 
-const src = path.resolve(__dirname, '../src');
+const src = path.resolve(__dirname, '../lib');
 const outDir = path.resolve(__dirname, '../dist/');
 
 gulp.task('compile-css', () => {
