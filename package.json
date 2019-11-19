@@ -1,8 +1,8 @@
 {
   "name": "oui-weapp",
-  "version": "0.0.3",
+  "version": "0.0.1",
   "description": "高质量、轻量、可靠的微信小程序 UI 组件库",
-  "main": "index.js",
+  "miniprogram": "dist",
   "directories": {
     "example": "example"
   },

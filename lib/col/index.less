@@ -1,0 +1,14 @@
+@grid-columns: 24;
+.o-col {
+  float: left;
+  box-sizing: border-box;
+  width: 0;
+}
+.getnerate(@grid-columns);
+
+.getnerate(@grid-columns, @index: 1) when (@index =< @grid-columns) {
+  .o-col-span-@{index} { width: @index * 100% / @grid-columns; }
+  .o-col-offset-@{index} { margin-left: @index * 100% / @grid-columns; }
+  .getnerate(@grid-columns, (@index + 1))
+}
+

@@ -1,13 +1,13 @@
+import Page from '../../common/page';
 Page({
-    // onShareAppMessage() {
-    //     return {
-    //         title: 'iView Weapp',
-    //         imageUrl: 'https://file.iviewui.com/iview-weapp-logo.png'
-    //     };
-    // },
-    handleClick () {
+    handleBtn () {
       wx.navigateTo({
           url: '/pages/button/index'
+      })
+    },
+    handleLayout () {
+      wx.navigateTo({
+        url: '/pages/layout/index'
       })
     }
 });

@@ -1,0 +1,13 @@
+<o-row><o-col span="24" o-class="dark">span: 24</o-col></o-row>
+<o-row>
+  <o-col span="8" o-class="dark">span: 8</o-col>
+  <o-col span="8" o-class="light">span: 8</o-col>
+  <o-col span="8" o-class="dark">span: 8</o-col>
+</o-row>
+<o-row>
+  <o-col span="4" o-class="dark">span: 4</o-col>
+  <o-col span="10" offset="2" o-class="light">offset: 2, span: 10</o-col>
+</o-row>
+<o-row>
+  <o-col span="12" offset="12" o-class="dark">offset: 12, span: 12</o-col>
+</o-row>

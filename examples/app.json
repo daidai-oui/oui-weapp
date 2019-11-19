@@ -1,7 +1,8 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/button/index"
+    "pages/button/index",
+    "pages/layout/index"
   ],
   "window": {
     "navigationBarBackgroundColor": "#FAFAFA",
