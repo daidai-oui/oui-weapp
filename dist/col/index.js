@@ -14,5 +14,18 @@ Component({
       value: 0,
       type: Number
     }
+  },
+  data: {
+    style: ''
+  },
+  methods: {
+    setGutter(gutter) {
+      const padding = `${gutter / 2}px`;
+      const style = gutter ? `padding-left: ${padding}; padding-right: ${padding};` : '';
+
+      if (style !== this.data.style) {
+        this.setData({ style });
+      }
+    }
   }
 })

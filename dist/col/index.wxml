@@ -1,1 +1,4 @@
-<view class="o-class o-col {{ span ? 'o-col-span-' + span : '' }} {{ offset ? 'o-col-offset-' + offset : '' }}"><slot></slot></view>
+<view class="o-class o-col {{ span ? 'o-col-span-' + span : '' }} {{ offset ? 'o-col-offset-' + offset : '' }}"
+  style="{{ style }}">
+  <slot></slot>
+</view>
