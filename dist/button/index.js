@@ -59,22 +59,21 @@ Component({
   },
 
   methods: {
-      handleTap () {
-          if (this.data.disabled) return false;
-
-          this.triggerEvent('click');
-      },
-      bindgetuserinfo({ detail = {} } = {}) {
-          this.triggerEvent('getuserinfo', detail);
-      },
-      bindcontact({ detail = {} } = {}) {
-          this.triggerEvent('contact', detail);
-      },
-      bindgetphonenumber({ detail = {} } = {}) {
-          this.triggerEvent('getphonenumber', detail);
-      },
-      binderror({ detail = {} } = {}) {
-          this.triggerEvent('error', detail);
-      }
+    handleTap () {
+    if (this.data.disabled) return false;
+    this.triggerEvent('click');
+    },
+    bindgetuserinfo({ detail = {} } = {}) {
+      this.triggerEvent('getuserinfo', detail);
+    },
+    bindcontact({ detail = {} } = {}) {
+      this.triggerEvent('contact', detail);
+    },
+    bindgetphonenumber({ detail = {} } = {}) {
+      this.triggerEvent('getphonenumber', detail);
+    },
+    binderror({ detail = {} } = {}) {
+      this.triggerEvent('error', detail);
+    }
   }
 });

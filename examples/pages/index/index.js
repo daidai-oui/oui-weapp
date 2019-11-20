@@ -1,13 +1,9 @@
 import Page from '../../common/page';
 Page({
-    handleBtn () {
-      wx.navigateTo({
-          url: '/pages/button/index'
-      })
-    },
-    handleLayout () {
-      wx.navigateTo({
-        url: '/pages/layout/index'
-      })
-    }
+  handleBtn (e) {
+    let url = e.target.dataset.url
+    wx.navigateTo({
+      url
+    })
+  }
 });

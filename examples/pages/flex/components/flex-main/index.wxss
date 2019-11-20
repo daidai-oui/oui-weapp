@@ -1,0 +1,20 @@
+.wrap {
+  background: #2979ff;
+}
+.item {
+  background-color: #12a0ff;
+  color: #2979ff;
+  width: 50px;
+  font-size: 44px;
+  text-align: center;
+}
+.set-btn {
+  display: inline-block;
+  line-height: 50rpx;
+  font-size: 18rpx;
+  margin: 20rpx 10rpx;
+  padding: 2rpx 20rpx;
+  border-radius: 6rpx;
+  background: #2979ff;
+  color: #fff;
+}
