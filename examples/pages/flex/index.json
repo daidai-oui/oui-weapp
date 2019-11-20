@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "flex容器",
+  "usingComponents": {
+    "flex-main": "./components/flex-main/index"
+  }
+}

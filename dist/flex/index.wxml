@@ -1,0 +1,3 @@
+<view class="o-class o-flex o-flex-dir-{{dir}} o-flex-main-{{main}} o-flex-cross-{{cross}} o-flex-wrap-{{wrap}}">
+  <slot></slot>
+</view>

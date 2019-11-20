@@ -17,8 +17,8 @@
   <o-col span="8" o-class="light">span: 8</o-col>
   <o-col span="8" o-class="dark">span: 8</o-col>
 </o-row>
-<o-row gutter="10">
+<!-- <o-row gutter="10">
   <o-col span="8" o-class="dark">span: 8</o-col>
   <o-col span="8" o-class="light">span: 8</o-col>
   <o-col span="8" o-class="dark">span: 8</o-col>
-</o-row>
+</o-row> -->

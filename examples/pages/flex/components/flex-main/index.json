@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "o-flex": "../../../../dist/flex/index",
+    "o-button": "../../../../dist/button/index"
+  }
+}

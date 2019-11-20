@@ -1,0 +1,10 @@
+<o-flex o-class="wrap" main="{{main}}">
+  <view class="item">1</view>
+  <view class="item">2</view>
+  <view class="item">3</view>
+</o-flex>
+<view class="set-btn" data-main="start" bindtap="setMain">起点排列(默认)</view>
+<view class="set-btn" data-main="end" bindtap="setMain">终点排列</view>
+<view class="set-btn" data-main="between" bindtap="setMain">两端对齐</view>
+<view class="set-btn" data-main="center" bindtap="setMain">居中对齐</view>
+<view class="set-btn" data-main="around" bindtap="setMain">等间分布</view>
