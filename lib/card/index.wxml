@@ -1,0 +1,11 @@
+<view class="o-class o-card {{ full ? 'o-card-full' : '' }}">
+  <view class="o-class o-card-header">
+    <view class="o-card-header-content">
+      <image wx:if="{{ thumb }}" class="o-card-header-thumb" src="{{ thumb }}" mode="aspectFit" />
+      {{ title }}
+    </view>
+    <view wx:if="{{ extra }}" class="i-card-header-extra">{{ extra }}</view>
+  </view>
+  <view class="o-class o-card-body"><slot name="content"></slot></view>
+  <view class="o-class o-card-footer"><slot name="footer"></slot></view>
+</view>
