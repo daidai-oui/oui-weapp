@@ -1,0 +1,6 @@
+<view class="o-class">
+  <view wx:if="{{title}}" class="o-panel-title {{hideTop ? 'o-panel-title-hide-top' : ''}}">{{title}}</view>
+  <view class="o-panel-content {{ hideBorder ? 'o-panel-without-border' : ''}}">
+    <slot></slot>
+  </view>
+</view>

@@ -1,0 +1,9 @@
+<o-panel title="标题" hideTop>
+  <view style="padding: 15px;">头部距离为 0 的 Panel</view>
+</o-panel>
+<o-panel title="标题">
+  <view style="padding: 15px;">有头部距离的 Panel</view>
+</o-panel>
+<o-panel title="标题" hideBorder="{{ true }}">
+  <view style="padding: 15px;">无边框的 Panel</view>
+</o-panel>
