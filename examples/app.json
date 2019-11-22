@@ -3,7 +3,8 @@
     "pages/index/index",
     "pages/button/index",
     "pages/layout/index",
-    "pages/color/index"
+    "pages/color/index",
+    "pages/icon/index"
   ],
   "window": {
     "navigationBarBackgroundColor": "#FAFAFA",
