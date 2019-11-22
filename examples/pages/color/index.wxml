@@ -1,0 +1,13 @@
+<block wx:for="{{colorData}}">
+  <o-panel title="{{item.title}}" hideBorder></o-panel>
+  <o-row gutter="20">
+    <o-col wx:for="{{item.list}}" span="12" o-class="color-col">
+      <o-card o-class="color" full bodyHairline="{{false}}">
+        <view slot="content" class="color-item {{item.class}}">
+          <view class="color-item-title">{{item.title}}</view>
+          <view class="color-item-content">{{item.content}}</view>
+        </view>
+      </o-card>
+    </o-col>
+  </o-row>
+</block>

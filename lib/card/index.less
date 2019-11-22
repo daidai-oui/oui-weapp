@@ -50,9 +50,12 @@
     padding: 6px 16px;
     color: @text-color;
     font-size: @size-font-base;
-    &::before {
-      .hairline();
-      border-top-width: 1px;
+
+    &-hairline {
+      &::before {
+        .hairline();
+        border-top-width: 1px;
+      }
     }
   }
   &-footer {
