@@ -1,0 +1,15 @@
+<view bindtap="handleTap" class="o-class o-cell o-cell-{{mode}} {{ isLink ? 'o-cell-access' : '' }}">
+  <o-icon wx:if="{{icon}}" class="o-cell-icon" size="38" type="{{icon}}" color="{{iconColor}}"></o-icon>
+  <slot wx:else name="icon" />
+  <view class="o-cell-bd">
+    <view wx:if="{{ title }}" class="o-cell-title">{{ title }}</view>
+    <view wx:if="{{ label }}" class="o-cell-label">{{ label }}</view>
+    <slot></slot>
+  </view>
+  <view class="o-cell-ft">
+    <block wx:if="{{desc}}">{{ desc }}</block>
+    <o-icon wx:if="{{isLink}}" class="o-cell-next" type="{{ arrowDirection ? 'arrow' + '-' + arrowDirection : 'enter' }}" size="24" color="#c2c2c2"></o-icon>
+    <slot wx:else name="right-icon"></slot>
+    <slot name="extra"></slot>
+  </view>
+</view>

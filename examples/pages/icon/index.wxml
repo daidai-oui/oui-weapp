@@ -1,5 +1,3 @@
-<!-- <o-icon type="accessory" size="28" color="#80848f"></o-icon>
-<o-icon type="accessory" size="28" color="#80848f"></o-icon> -->
 <view class="icon-item" wx:for="{{ list }}" wx:key="{{ item }}">
   <o-icon type="{{ item }}" size="28" color="#80848f"></o-icon>
   <view class="icon-item-name">{{ item }}</view>
