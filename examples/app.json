@@ -16,7 +16,16 @@
     "backgroundColor": "#f8f8f8"
   },
   "usingComponents": {
-    "example-block": "./components/example-block/index"
+    "example-block": "./components/example-block/index",
+    "o-button": "./dist/button/index",
+    "o-cell": "./dist/cell/index",
+    "o-card": "./dist/card/index",
+    "o-row": "./dist/row/index",
+    "o-col": "./dist/col/index",
+    "o-panel": "./dist/panel/index",
+    "o-icon": "./dist/icon/index",
+    "o-grid": "./dist/grid/index",
+    "o-grid-item": "./dist/grid-item/index"
   },
   "debug": true,
   "sitemapLocation": "sitemap.json"
