@@ -1,0 +1,15 @@
+@import "../common/index.less";
+.o-grid {
+  position: relative;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.o-grid-item:last-child {
+  background-color: red !important;
+  &-content-bordered {
+    &:before {
+      // background-color: red !important;
+      border-right-width: 0;
+    }
+  }
+}

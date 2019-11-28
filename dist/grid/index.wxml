@@ -1,0 +1,3 @@
+<view class="o-class o-grid {{bordered ? 'o-grid-bordered' : ''}}">
+  <slot></slot>
+</view>
