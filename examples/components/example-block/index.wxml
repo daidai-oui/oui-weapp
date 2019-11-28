@@ -1,0 +1,4 @@
+<view class="o-class example-block {{ padding ? 'example-block-padding' : '' }}">
+  <view wx:if="{{ title }}" class="example-block-title">{{ title }}</view>
+  <slot />
+</view>

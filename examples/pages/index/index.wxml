@@ -1,6 +1,9 @@
 
 <o-button type="primary" bind:click="handleBtn" data-url="/pages/button/index">Button按钮</o-button>
 <o-button type="primary" bind:click="handleBtn" data-url="/pages/layout/index">Layout栅格布局</o-button>
-<o-button type="primary" bind:click="handleBtn" data-url="/pages/flex/index">flex容器</o-button>
-<o-button type="primary" bind:click="handleBtn" data-url="/pages/panel/index">panel 面板</o-button>
+<o-button type="primary" bind:click="handleBtn" data-url="/pages/flex/index">Flex容器</o-button>
+<o-button type="primary" bind:click="handleBtn" data-url="/pages/panel/index">Panel面板</o-button>
+<o-button type="primary" bind:click="handleBtn" data-url="/pages/icon/index">Icon图标</o-button>
 <o-button type="primary" bind:click="handleBtn" data-url="/pages/color/index">Color色彩</o-button>
+<o-button type="primary" bind:click="handleBtn" data-url="/pages/cell/index">List cell</o-button>
+<o-button type="primary" bind:click="handleBtn" data-url="/pages/grid/index">Grid 布局</o-button>

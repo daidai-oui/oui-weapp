@@ -1,0 +1,4 @@
+var bem = require('./bem.wxs').bem
+module.exports = {
+  bem: bem
+}

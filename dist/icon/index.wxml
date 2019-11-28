@@ -1,0 +1,4 @@
+<view
+  class="o-class o-icon {{ type ? 'o-icon-'+type : '' }} {{ custom }}"
+  style="font-size: {{ size }}px; {{ color ? 'color:' + color : '' }}"
+></view>

@@ -3,14 +3,20 @@
     "pages/index/index",
     "pages/button/index",
     "pages/layout/index",
-    "pages/color/index"
+    "pages/color/index",
+    "pages/icon/index",
+    "pages/cell/index",
+    "pages/grid/index"
   ],
   "window": {
-    "navigationBarBackgroundColor": "#FAFAFA",
+    "navigationBarBackgroundColor": "#f8f8f8",
     "navigationBarTitleText": "Oui WeApp",
     "navigationBarTextStyle": "black",
     "backgroundTextStyle": "dark",
-    "backgroundColor": "#fff"
+    "backgroundColor": "#f8f8f8"
+  },
+  "usingComponents": {
+    "example-block": "./components/example-block/index"
   },
   "debug": true,
   "sitemapLocation": "sitemap.json"

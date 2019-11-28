@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "Icon 图标",
+  "usingComponents": {
+    "o-icon": "../../dist/icon/index"
+  }
+}

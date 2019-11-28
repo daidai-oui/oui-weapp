@@ -1,0 +1,50 @@
+@import "../common/index.less";
+.o-grid-item {
+  position: relative;
+  float: left;
+  box-sizing: border-box;
+
+  &-square {
+    height: 0;
+  }
+  &-content {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    height: 100%;
+    padding: 8px 16px;
+    background-color: @tooltip-color;
+    &-bordered {
+      &:after {
+        .hairline();
+        border-right-width: 1px;
+        border-bottom-width: 1px;
+      }
+    }
+    // &-surround {
+    //   &::after {
+    //     border-width: 1px;
+    //   }
+    // }
+    &-center {
+      align-items: center;
+      justify-content: center;
+    }
+    &-square {
+      position: absolute;
+      top: 0;
+      right: 0;
+      left: 0;
+    }
+  }
+  &-icon {
+    // font-size: @avatar-size-sm;
+    color: @avatar-color;
+  }
+  &-text {
+    word-wrap: break-word;
+    font-size: @size-font-base;
+    color: @text-color;
+  }
+}
+

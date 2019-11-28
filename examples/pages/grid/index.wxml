@@ -1,0 +1,17 @@
+<example-block title="基本用法">
+  <o-grid>
+    <o-grid-item icon="emoji" text="文字" wx:for="{{ 4 }}" wx:key="*this" />
+  </o-grid>
+</example-block>
+
+<example-block title="自定义列数">
+  <o-grid column-num="3">
+    <o-grid-item icon="emoji" text="文字" wx:for="{{ 6 }}" wx:key="*this" />
+  </o-grid>
+</example-block>
+
+<example-block title="正方形格子">
+  <o-grid square>
+    <o-grid-item icon="emoji" text="文字" wx:for="{{ 8 }}" wx:key="*this" />
+  </o-grid>
+</example-block>

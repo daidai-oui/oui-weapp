@@ -1,0 +1,1 @@
+.o-grid{position:relative;box-sizing:border-box;overflow:hidden}.o-grid-item:last-child{background-color:red!important}.o-grid-item:last-child-content-bordered:before{border-right-width:0}

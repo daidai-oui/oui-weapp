@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "Oui Weapp",
+  "usingComponents": {
+    "o-grid": "../../dist/grid/index",
+    "o-grid-item": "../../dist/grid-item/index"
+  }
+}
