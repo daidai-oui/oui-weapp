@@ -28,7 +28,7 @@ Component({
         return
       }
       const { data, children } = this.data.parent
-      const { columnNum, bordered, square, gutter, clickAble, center } = data
+      const { columnNum, border, square, gutter, clickAble, center } = data
       const width = `${100 / columnNum}%`
       const styleWrapper = []
       styleWrapper.push(`width: ${width}`)
@@ -45,7 +45,7 @@ Component({
       this.setData({
         style: styleWrapper.join('; '),
         center,
-        bordered,
+        border,
         square,
         gutter,
         clickAble

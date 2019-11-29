@@ -1,5 +1,5 @@
 
-<o-button type="primary" bind:click="handleBtn" data-url="/pages/button/index">Button按钮</o-button>
+<!-- <o-button type="primary" bind:click="handleBtn" data-url="/pages/button/index">Button按钮</o-button>
 <o-button type="primary" bind:click="handleBtn" data-url="/pages/layout/index">Layout栅格布局</o-button>
 <o-button type="primary" bind:click="handleBtn" data-url="/pages/flex/index">Flex容器</o-button>
 <o-button type="primary" bind:click="handleBtn" data-url="/pages/panel/index">Panel面板</o-button>
@@ -7,4 +7,34 @@
 <o-button type="primary" bind:click="handleBtn" data-url="/pages/color/index">Color色彩</o-button>
 <o-button type="primary" bind:click="handleBtn" data-url="/pages/cell/index">List cell</o-button>
 <o-button type="primary" bind:click="handleBtn" data-url="/pages/grid/index">Grid 布局</o-button>
-<o-button type="primary" bind:click="handleBtn" data-url="/pages/collapse/index">Collapse 折叠面板</o-button>
+<o-button type="primary" bind:click="handleBtn" data-url="/pages/collapse/index">Collapse 折叠面板</o-button> -->
+
+<o-flex main="center" cross="center" o-class="logo-box" >
+  <image src="../../assets/images/logo.svg" mode="aspectFit"></image>
+</o-flex>
+<o-collapse
+  wx:for="{{ list }}"
+  wx:for-item="group"
+  wx:key="group.title"
+  value="{{ activeNames }}"
+  mode="{{ false }}"
+  bind:change="onChangeCollapse">
+    <o-collapse-item
+      clickable
+      title="{{ group.groupName }}"
+      name="{{ group.groupName }}"
+      icon="{{ group.icon }}"
+      o-class="nav-item"
+    >
+      <o-cell
+        wx:for="{{ group.list }}"
+        wx:key="item.title"
+        isLink="{{ true }}"
+        url="/pages{{ item.path }}/index"
+        data-url="/pages{{ item.path }}/index"
+        data-switch-tab="{{ true }}"
+        title="{{ item.title }}"
+        bind:click="onClick"
+      />
+    </o-collapse-item>
+</o-collapse>

@@ -10,7 +10,7 @@
     "pages/collapse/index"
   ],
   "window": {
-    "navigationBarBackgroundColor": "#f8f8f8",
+    "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "Oui WeApp",
     "navigationBarTextStyle": "black",
     "backgroundTextStyle": "dark",
@@ -21,6 +21,7 @@
     "o-button": "./dist/button/index",
     "o-cell": "./dist/cell/index",
     "o-card": "./dist/card/index",
+    "o-flex": "./dist/flex/index",
     "o-row": "./dist/row/index",
     "o-col": "./dist/col/index",
     "o-panel": "./dist/panel/index",

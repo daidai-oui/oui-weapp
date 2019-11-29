@@ -26,7 +26,7 @@ Component({
     },
     iconColor: {
       type: String,
-      value: '#ff5077' // 标题左侧icon颜色
+      value: '#1d2437' // 标题左侧icon颜色
     },
     //  是否展示右侧箭头
     isLink: {
