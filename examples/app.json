@@ -6,7 +6,8 @@
     "pages/color/index",
     "pages/icon/index",
     "pages/cell/index",
-    "pages/grid/index"
+    "pages/grid/index",
+    "pages/collapse/index"
   ],
   "window": {
     "navigationBarBackgroundColor": "#f8f8f8",
@@ -25,7 +26,9 @@
     "o-panel": "./dist/panel/index",
     "o-icon": "./dist/icon/index",
     "o-grid": "./dist/grid/index",
-    "o-grid-item": "./dist/grid-item/index"
+    "o-grid-item": "./dist/grid-item/index",
+    "o-collapse": "./dist/collapse/index",
+    "o-collapse-item": "./dist/collapse-item/index"
   },
   "debug": true,
   "sitemapLocation": "sitemap.json"

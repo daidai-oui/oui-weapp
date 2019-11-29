@@ -1,0 +1,44 @@
+@import "../common/index.less";
+
+.o-collapse-item {
+  &-title {
+    .o-cell-right-icon {
+      transform: rotate(90deg);
+      // .theme(transition, 'transform @collapse-item-transition-duration');
+    }
+
+    &-expanded {
+      .o-cell-right-icon {
+        transform: rotate(-90deg);
+      }
+    }
+
+    &-disabled {
+      .o-cell,
+      .o-cell-right-icon {
+        // .theme(color, '@collapse-item-title-disabled-color') !important;
+      }
+
+      .o-cell--hover {
+        // .theme(background-color, '@white') !important;
+      }
+    }
+  }
+
+  &-wrapper {
+    overflow: hidden;
+    &-transition {
+      transition: height 300ms ease-in-out;
+    }
+  }
+
+  &-content {
+    color: @title-color;
+    line-height: 30px;
+    // .theme(padding, '@collapse-item-content-padding');
+    // .theme(color, '@collapse-item-content-text-color');
+    // .theme(font-size, '@collapse-item-content-font-size');
+    // .theme(line-height, '@collapse-item-content-line-height');
+    // .theme(background-color, '@collapse-item-content-background-color');
+  }
+}
