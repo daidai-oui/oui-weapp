@@ -15,3 +15,9 @@
     <o-grid-item icon="emoji" text="文字" wx:for="{{ 8 }}" wx:key="*this" />
   </o-grid>
 </example-block>
+
+<example-block title="格子间距">
+  <o-grid gutter="{{ 20 }}">
+    <o-grid-item icon="emoji" text="文字" wx:for="{{ 8 }}" wx:key="*this" />
+  </o-grid>
+</example-block>

@@ -1,17 +1,25 @@
 .dark,
 .light {
   color: #fff;
-  font-size: 14px;
-  line-height: 44px;
   text-align: center;
-  margin-bottom: 10px;
+  margin-bottom: 16rpx;
   background-clip: content-box;
 }
 
 .dark {
-  background-color: #2979ff;
+  background-color:#448aff;
 }
 
 .light {
-  background-color: #12a0ff;
+  background-color: #82b1ff;
+}
+
+.base-layout .dark, .base-layout .light {
+  font-size: 28rpx;
+  line-height: 96rpx;
+}
+
+.other-layout .dark, .other-layout .light {
+  font-size: 22rpx;
+  line-height: 64rpx;
 }

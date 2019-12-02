@@ -4,6 +4,14 @@ export default [
     icon: 'document',
     list: [
       {
+        path: '/layout',
+        title: '栅格 布局'
+      },
+      {
+        path: '/grid',
+        title: 'Grid 宫格'
+      },
+      {
         path: '/button',
         title: 'Button 按钮'
       },
@@ -18,10 +26,6 @@ export default [
       {
         path: '/image',
         title: 'Image 图片'
-      },
-      {
-        path: '/col',
-        title: 'Layout 布局'
       },
       {
         path: '/popup',
@@ -179,10 +183,6 @@ export default [
     groupName: '表单',
     icon: 'other',
     list: [
-      {
-        path: '/grid',
-        title: 'Grid 宫格'
-      },
       {
         path: '/sidebar',
         title: 'Sidebar 侧边导航'

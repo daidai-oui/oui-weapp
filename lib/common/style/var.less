@@ -1,16 +1,35 @@
-// Color
+@white-color            : #fff;
+@black-color            : #000;
+// 主色(用于品牌颜色和标识)
 @primary-color          : #2979ff;
 @dark-primary-color     : #448aff;
 @light-primary-color    : #82b1ff;
 @disabled-color         : #d2e9fd;
 
-@info-color             : #2db7f5;  // 只有button在用
-
+// 辅助色(用于标识的按钮等)
 @success-color          : #52c41b;
 @warning-color          : #ffad16;
 @error-color            : #ed3f14;
 
+// 中性色(用于标识状态的按钮)
+@title-color            : #1d2437;
+@text-color             : #48505f;
+@sub-color              : #7f8490;
+@vice-disabled-color    : #bbbec3;  // 副标题失效
+@border-color           : #dddee0;
+@divider-color          : #e9eaec;
+@background-color-tag   : #f5f5f5;  // 标签背景
+@background-color-base  : #f8f8f8;  // base 背景颜色
+
+// Border color
+@border-color-base      : #dddee1;  // outside
+@border-color-split     : #e9eaec;  // inside
+
+
+
 // 需修改
+@info-color             : #2db7f5;  // 只有button在用
+
 @link-color             : #2D8cF0;
 @link-hover-color       : tint(@link-color, 20%);
 @link-active-color      : shade(@link-color, 5%);
@@ -18,26 +37,12 @@
 @tooltip-color          : #fff;
 @rate-star-color        : #f5a623;
 
-@title-color            : #1d2437;
-@text-color             : #48505f;
-@sub-color              : #7f8490;
-
-@border-color           : #dddee0;
-@divider-color          : #e9eaec;
-@vice-disabled-color    : #bbbec3;  // 副标题失效
-
-@background-color-tag   : #f5f5f5;  // 标签背景
-@background-color-base  : #f8f8f8;  // base
-
-// Border color
-@border-color-base      : #dddee1;  // outside
-@border-color-split     : #e9eaec;  // inside
 
 // Size
-@size-font-big          : 18px;
-@size-font-lg           : 16px;
-@size-font-base         : 14px;
-@size-font-small        : 12px;
+@size-font-big          : 36rpx;
+@size-font-lg           : 32rpx;
+@size-font-base         : 28rpx;
+@size-font-small        : 24rpx;
 
 // Button
 @btn-font-weight        : normal;
@@ -72,12 +77,12 @@
 // Avatar
 @avatar-bg: #ccc;
 @avatar-color: @text-color;
-@avatar-size-base: 32px;
-@avatar-size-lg: 40px;
-@avatar-size-sm: 24px;
-@avatar-font-size-base: 18px;
-@avatar-font-size-lg: 24px;
-@avatar-font-size-sm: 14px;
+@avatar-size-base: 64rpx;
+@avatar-size-lg: 80rpx;
+@avatar-size-sm: 48rpx;
+@avatar-font-size-base: 36rpx;
+@avatar-font-size-lg: 48rpx;
+@avatar-font-size-sm: 28rpx;
 @avatar-border-radius: @border-radius-small;
 @border-radius-small    : 4px;
 

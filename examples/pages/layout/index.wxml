@@ -1,24 +1,44 @@
-<o-row><o-col span="24" o-class="dark">span: 24</o-col></o-row>
-<o-row>
-  <o-col span="8" o-class="dark">span: 8</o-col>
-  <o-col span="8" o-class="light">span: 8</o-col>
-  <o-col span="8" o-class="dark">span: 8</o-col>
-</o-row>
-<o-row>
-  <o-col span="4" o-class="dark">span: 4</o-col>
-  <o-col span="10" offset="2" o-class="light">offset: 2, span: 10</o-col>
-</o-row>
-<o-row>
-  <o-col span="12" offset="12" o-class="dark">offset: 12, span: 12</o-col>
-</o-row>
+<example-block title="基本用法" class="base-layout">
+  <o-row><o-col span="24" o-class="dark">24：100%</o-col></o-row>
+  <o-row>
+    <o-col span="12" o-class="dark">12：50%</o-col>
+    <o-col span="12" o-class="light">12：50%</o-col>
+  </o-row>
+  <o-row>
+    <o-col span="8" o-class="dark">8：33.33%</o-col>
+    <o-col span="8" o-class="light">8：33.33%</o-col>
+    <o-col span="8" o-class="dark">8：33.33%</o-col>
+  </o-row>
+  <o-row>
+    <o-col span="6" o-class="dark">6：25%</o-col>
+    <o-col span="6" o-class="light">6：25%</o-col>
+    <o-col span="6" o-class="dark">6：25%</o-col>
+    <o-col span="6" o-class="light">6：25%</o-col>
+  </o-row>
+  <o-row>
+    <o-col span="16" o-class="dark">16：66.66%</o-col>
+    <o-col span="8" o-class="light">6：33.33%</o-col>
+  </o-row>
 
-<o-row gutter="20">
-  <o-col span="8" o-class="dark"> span: 8</o-col>
-  <o-col span="8" o-class="light">span: 8</o-col>
-  <o-col span="8" o-class="dark">span: 8</o-col>
-</o-row>
-<!-- <o-row gutter="10">
-  <o-col span="8" o-class="dark">span: 8</o-col>
-  <o-col span="8" o-class="light">span: 8</o-col>
-  <o-col span="8" o-class="dark">span: 8</o-col>
-</o-row> -->
+  <o-row>
+    <o-col span="12" offset="12" o-class="dark">offset: 12, span: 12</o-col>
+  </o-row>
+</example-block>
+<example-block title="左右偏移" class="other-layout">
+  <o-row>
+    <o-col span="8" o-class="dark">8: 33.33%</o-col>
+    <o-col span="8" offset="8" o-class="dark">8: 33.33%</o-col>
+  </o-row>
+  <o-row>
+    <o-col span="6" offset="6" o-class="dark">span:6 offset:6</o-col>
+    <o-col span="6" offset="6" o-class="dark">span:6 offset:6</o-col>
+  </o-row>
+  <o-row>
+    <o-col span="6" offset="8" o-class="dark">span:6 offset:8</o-col>
+  </o-row>
+  <o-row gutter="20">
+    <o-col span="8" o-class="dark"> span: 8</o-col>
+    <o-col span="8" o-class="light">span: 8</o-col>
+    <o-col span="8" o-class="dark">span: 8</o-col>
+  </o-row>
+</example-block>

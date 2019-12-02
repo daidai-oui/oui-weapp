@@ -1,15 +1,15 @@
 page {
   background-color: #f8f8f8;
-  padding: 0 8px;
+  padding: 0 16rpx;
   box-sizing: border-box;
 }
 .logo-box {
-  padding: 24px 0;
+  padding: 48rpx 0;
 }
 .logo-box image {
-  width: 130px;
-  height: 130px;
+  width: 260rpx;
+  height: 260rpx;
 }
 .nav-item {
-  margin-bottom: 8px;
+  margin-bottom: 16rpx;
 }
