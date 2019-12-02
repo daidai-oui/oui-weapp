@@ -1,5 +1,5 @@
 <wxs src="../wxs/util.wxs" module="util" />
-<view class="o-class o-grid-item o-grid-item-square" hover-class="o-grid-item-hover" style="{{ style }}">
+<view class="o-class {{ util.bem('grid-item', { square }) }}" hover-class="o-grid-item-hover" style="{{ style }}">
   <view class="{{util.bem('grid-item-content', {center, square, clickAble, surround: border && gutter})}} {{ border ? 'o-grid-item-content-border' : '' }}">
     <view class="o-grid-item-icon">
       <o-icon wx:if="{{icon}}" type="{{icon}}"></o-icon>

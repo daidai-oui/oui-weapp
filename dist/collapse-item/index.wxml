@@ -1,0 +1,39 @@
+<wxs src="../wxs/util.wxs" module="util" />
+<view class="o-class o-collapse-item {{ index !== 0 ? 'o-collapse-item-top' : '' }}">
+  <o-cell
+    title="{{ title }}"
+    label="{{ label }}"
+    desc="{{ desc }}"
+    icon="{{ icon }}"
+    isLink="{{ isLink }}"
+    border="{{ border && expanded }}"
+    rightIcon="{{ expanded ? 'packup' : 'enter' }}"
+    class="{{ util.bem('collapse-item-title', { disabled, expanded }) }}"
+    bindtap="onClick"
+    >
+    <slot
+      name="title"
+      slot="title"
+    />
+    <slot
+      name="icon"
+      slot="icon"
+    />
+    <slot name="value" />
+    <slot
+      name="right-icon"
+      slot="right-icon"
+    />
+  </o-cell>
+  <view
+    class="{{ util.bem('collapse-item-wrapper', { transition }) }}"
+    style="height: {{ contentHeight }}"
+    bindtransitionend="onTransitionEnd"
+  >
+    <view
+      class="o-collapse-item-content content-class"
+    >
+      <slot />
+    </view>
+  </view>
+</view>

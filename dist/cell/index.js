@@ -4,7 +4,6 @@ Component({
     multipleSlots: true
   },
   relations: {
-
   },
   properties: {
     // 左侧标题
@@ -28,6 +27,10 @@ Component({
       type: String,
       value: '#1d2437' // 标题左侧icon颜色
     },
+    rightIcon: {
+      type: String,
+      value: 'enter'
+    },
     //  是否展示右侧箭头
     isLink: {
       type: null,
@@ -42,9 +45,9 @@ Component({
       type: String,
       value: ''
     },
-    mode: {
-      type: String,
-      value: 'normal' // 有边框和无边框 normal, none
+    border: {
+      type: Boolean,
+      value: true
     }
   },
   data: {
@@ -54,10 +57,8 @@ Component({
     navigateTo() {
       console.log('==============navigateTo')
     },
-    handleTap() {
-      if (!this.data.onlyTapFooter) {
-        this.navigateTo()
-      }
+    handleTap(event) {
+      this.triggerEvent('click', event.detail);
     }
   },
 })
