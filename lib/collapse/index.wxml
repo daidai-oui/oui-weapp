@@ -1,0 +1,3 @@
+<view class="o-class o-collapse {{ border ? 'o-collapse-border' : '' }}">
+  <slot />
+</view>

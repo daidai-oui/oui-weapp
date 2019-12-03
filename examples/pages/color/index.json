@@ -1,9 +1,3 @@
 {
-  "navigationBarTitleText": "Color 色彩",
-  "usingComponents": {
-    "o-card": "../../dist/card/index",
-    "o-row": "../../dist/row/index",
-    "o-col": "../../dist/col/index",
-    "o-panel": "../../dist/panel/index"
-  }
+  "navigationBarTitleText": "Color 色彩"
 }

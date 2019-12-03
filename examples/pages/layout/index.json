@@ -1,7 +1,3 @@
 {
-  "navigationBarTitleText": "Layout 栅格布局",
-  "usingComponents": {
-    "o-row": "../../dist/row/index",
-    "o-col": "../../dist/col/index"
-  }
+  "navigationBarTitleText": "Layout 栅格布局"
 }

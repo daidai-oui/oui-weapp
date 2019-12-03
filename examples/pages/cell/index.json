@@ -1,6 +1,3 @@
 {
-  "navigationBarTitleText": "cell",
-  "usingComponents": {
-    "o-cell": "../../dist/cell/index"
-  }
+  "navigationBarTitleText": "cell"
 }

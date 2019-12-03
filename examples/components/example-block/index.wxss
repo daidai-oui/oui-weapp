@@ -1,14 +1,13 @@
 
 .example-block-title {
   margin: 0;
-  font-weight: 400;
-  font-size: 14px;
-  color: rgba(69,90,100,.6);
-  padding: 20px 15px 15px;
+  font-size: 28rpx;
+  color: #1d2437;
+  padding: 32rpx 0 16rpx 32rpx;
 }
 
 .example-block-padding {
-  padding: 0 15px;
+  padding: 0 32rpx;
 }
 
 .example-block-padding .example-block-title {

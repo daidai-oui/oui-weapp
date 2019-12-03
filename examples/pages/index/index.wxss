@@ -1,3 +1,15 @@
 page {
   background-color: #f8f8f8;
+  padding: 0 16rpx;
+  box-sizing: border-box;
+}
+.logo-box {
+  padding: 48rpx 0;
+}
+.logo-box image {
+  width: 260rpx;
+  height: 260rpx;
+}
+.nav-item {
+  margin-bottom: 16rpx;
 }

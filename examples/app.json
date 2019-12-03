@@ -6,17 +6,33 @@
     "pages/color/index",
     "pages/icon/index",
     "pages/cell/index",
-    "pages/grid/index"
+    "pages/grid/index",
+    "pages/collapse/index",
+    "pages/list/index",
+    "pages/font/index"
   ],
   "window": {
-    "navigationBarBackgroundColor": "#f8f8f8",
+    "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "Oui WeApp",
     "navigationBarTextStyle": "black",
     "backgroundTextStyle": "dark",
     "backgroundColor": "#f8f8f8"
   },
   "usingComponents": {
-    "example-block": "./components/example-block/index"
+    "example-block": "./components/example-block/index",
+    "o-button": "./dist/button/index",
+    "o-cell-group": "./dist/cell-group/index",
+    "o-cell": "./dist/cell/index",
+    "o-card": "./dist/card/index",
+    "o-flex": "./dist/flex/index",
+    "o-row": "./dist/row/index",
+    "o-col": "./dist/col/index",
+    "o-panel": "./dist/panel/index",
+    "o-icon": "./dist/icon/index",
+    "o-grid": "./dist/grid/index",
+    "o-grid-item": "./dist/grid-item/index",
+    "o-collapse": "./dist/collapse/index",
+    "o-collapse-item": "./dist/collapse-item/index"
   },
   "debug": true,
   "sitemapLocation": "sitemap.json"

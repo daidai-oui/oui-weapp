@@ -1,0 +1,1 @@
+.o-collapse-item-title .o-cell-right-icon{transform:rotate(90deg)}.o-collapse-item-title-expanded .o-cell-right-icon{transform:rotate(-90deg)}.o-collapse-item-wrapper{overflow:hidden}.o-collapse-item-wrapper-transition{transition:height .3s ease-in-out}.o-collapse-item-content{color:#1d2437;line-height:30px}

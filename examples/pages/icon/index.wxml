@@ -1,4 +1,4 @@
 <view class="icon-item" wx:for="{{ list }}" wx:key="{{ item }}">
-  <o-icon type="{{ item }}" size="28" color="#80848f"></o-icon>
+  <o-icon type="{{ item }}"></o-icon>
   <view class="icon-item-name">{{ item }}</view>
 </view>

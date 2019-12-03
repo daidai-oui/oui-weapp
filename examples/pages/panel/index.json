@@ -1,6 +1,3 @@
 {
-  "navigationBarTitleText": "Panel 面板",
-  "usingComponents": {
-    "o-panel": "../../dist/panel/index"
-  }
+  "navigationBarTitleText": "Panel 面板"
 }

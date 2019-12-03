@@ -2,7 +2,7 @@ import Page from '../../common/page';
 Page({
   data: {
     list: [
-      'accessory', 'activity', 'activity_fill',
+      'layout', 'activity', 'activity_fill',
       'add', 'addressbook_fill', 'addressbook',
       'barrage_fill', 'barrage', 'browse_fill',
       'browse', 'brush', 'brush_fill', 'businesscard_fill',

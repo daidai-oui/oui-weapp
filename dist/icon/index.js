@@ -11,7 +11,7 @@ Component({
     },
     size: {
       type: Number,
-      value: 14
+      value: 24
     },
     color: {
       type: String,

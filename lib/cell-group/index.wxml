@@ -1,0 +1,9 @@
+<view
+  wx:if="{{ title }}"
+  class="o-cell-group-title"
+>
+  {{ title }}
+</view>
+<view class="o-class o-cell-group {{ border ? 'o-cell-group-border' : '' }}">
+  <slot />
+</view>

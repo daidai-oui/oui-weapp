@@ -12,20 +12,19 @@
     flex-direction: column;
     box-sizing: border-box;
     height: 100%;
-    padding: 8px 16px;
+    padding: 40rpx 0rpx;
     background-color: @tooltip-color;
-    &-bordered {
+    &-border {
       &:after {
+        z-index: 1;
         .hairline();
-        border-right-width: 1px;
-        border-bottom-width: 1px;
+        border-right-width: 2rpx;
+        border-bottom-width: 2rpx;
       }
     }
-    // &-surround {
-    //   &::after {
-    //     border-width: 1px;
-    //   }
-    // }
+    &-surround {
+      border: 2rpx solid @border-color-split;
+    }
     &-center {
       align-items: center;
       justify-content: center;
@@ -43,8 +42,9 @@
   }
   &-text {
     word-wrap: break-word;
-    font-size: @size-font-base;
+    font-size: @size-font-small;
     color: @text-color;
+    margin-top: 14rpx;
   }
 }
 
