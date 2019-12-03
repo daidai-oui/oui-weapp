@@ -7,7 +7,9 @@
     "pages/icon/index",
     "pages/cell/index",
     "pages/grid/index",
-    "pages/collapse/index"
+    "pages/collapse/index",
+    "pages/list/index",
+    "pages/font/index"
   ],
   "window": {
     "navigationBarBackgroundColor": "#fff",
@@ -19,6 +21,7 @@
   "usingComponents": {
     "example-block": "./components/example-block/index",
     "o-button": "./dist/button/index",
+    "o-cell-group": "./dist/cell-group/index",
     "o-cell": "./dist/cell/index",
     "o-card": "./dist/card/index",
     "o-flex": "./dist/flex/index",

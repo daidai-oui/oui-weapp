@@ -1,0 +1,13 @@
+<example-block title="基本用法">
+  <o-cell-group>
+    <o-cell title="单选项一">
+      <o-icon slot="right-icon" type="right" color="red" />
+    </o-cell>
+    <o-cell
+      title="单元格"
+      desc="内容"
+      label="描述信息"
+      border="{{ false }}"
+    />
+  </o-cell-group>
+</example-block>
